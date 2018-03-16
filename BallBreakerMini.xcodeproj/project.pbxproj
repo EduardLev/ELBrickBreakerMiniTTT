@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4F716DF81EA1713EFDB34B /* Pods_BallBreakerMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604C18CBC0E629E3A4E563F1 /* Pods_BallBreakerMini.framework */; };
 		D4D9DC38205AFD2300E1D78C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9DC37205AFD2300E1D78C /* AppDelegate.swift */; };
 		D4D9DC3A205AFD2300E1D78C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9DC39205AFD2300E1D78C /* ViewController.swift */; };
 		D4D9DC3D205AFD2300E1D78C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D9DC3B205AFD2300E1D78C /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070E8719190C49FB037A710F /* Pods-BallBreakerMini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallBreakerMini.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BallBreakerMini/Pods-BallBreakerMini.debug.xcconfig"; sourceTree = "<group>"; };
+		604C18CBC0E629E3A4E563F1 /* Pods_BallBreakerMini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallBreakerMini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D9DC34205AFD2300E1D78C /* BallBreakerMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallBreakerMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D9DC37205AFD2300E1D78C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D9DC39205AFD2300E1D78C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D4D9DC3E205AFD2300E1D78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D9DC41205AFD2300E1D78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4D9DC43205AFD2300E1D78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB687A1A39266B2851E6A8C9 /* Pods-BallBreakerMini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallBreakerMini.release.xcconfig"; path = "Pods/Target Support Files/Pods-BallBreakerMini/Pods-BallBreakerMini.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4F716DF81EA1713EFDB34B /* Pods_BallBreakerMini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB60ACDF2BF8A2EA5EAD7290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				604C18CBC0E629E3A4E563F1 /* Pods_BallBreakerMini.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4D9DC2B205AFD2300E1D78C = {
 			isa = PBXGroup;
 			children = (
 				D4D9DC36205AFD2300E1D78C /* BallBreakerMini */,
 				D4D9DC35205AFD2300E1D78C /* Products */,
+				D5E9358C9F4BA0BC6E90FBBE /* Pods */,
+				BB60ACDF2BF8A2EA5EAD7290 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = BallBreakerMini;
 			sourceTree = "<group>";
 		};
+		D5E9358C9F4BA0BC6E90FBBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				070E8719190C49FB037A710F /* Pods-BallBreakerMini.debug.xcconfig */,
+				FB687A1A39266B2851E6A8C9 /* Pods-BallBreakerMini.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4D9DC46205AFD2300E1D78C /* Build configuration list for PBXNativeTarget "BallBreakerMini" */;
 			buildPhases = (
+				7C504E725E4E598D229E3A69 /* [CP] Check Pods Manifest.lock */,
 				D4D9DC30205AFD2300E1D78C /* Sources */,
 				D4D9DC31205AFD2300E1D78C /* Frameworks */,
 				D4D9DC32205AFD2300E1D78C /* Resources */,
+				AAD554FC86CFC2A9A5FD80DD /* [CP] Embed Pods Frameworks */,
+				8C3D2146E02C4B848E25DEB6 /* [CP] Copy Pods Resources */,
+				D47142A7205C581900F4E4C0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,6 +158,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C504E725E4E598D229E3A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BallBreakerMini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3D2146E02C4B848E25DEB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallBreakerMini/Pods-BallBreakerMini-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD554FC86CFC2A9A5FD80DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallBreakerMini/Pods-BallBreakerMini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47142A7205C581900F4E4C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4D9DC30205AFD2300E1D78C /* Sources */ = {
@@ -272,6 +364,7 @@
 		};
 		D4D9DC47205AFD2300E1D78C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070E8719190C49FB037A710F /* Pods-BallBreakerMini.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +380,7 @@
 		};
 		D4D9DC48205AFD2300E1D78C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB687A1A39266B2851E6A8C9 /* Pods-BallBreakerMini.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
