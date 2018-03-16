@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         itemBehavior.friction = 0
         itemBehavior.elasticity = 1
         itemBehavior.resistance = 0
-        itemBehavior.density = 0.2
+        itemBehavior.density = 0.5
         animator.addBehavior(itemBehavior)
     }
 
