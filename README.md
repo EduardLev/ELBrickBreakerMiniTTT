@@ -3,7 +3,7 @@ Turn To Tech Animations Project
 
 # Project Title
 
-Animations project done for Turn To Tech as part of their project ladder
+Animations project done for TurnToTech as part of their project ladder
 
 ## Using
 
