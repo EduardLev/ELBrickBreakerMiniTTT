@@ -1,9 +1,9 @@
 # ELBrickBreakerMiniTTT
 Turn To Tech Animations Project
 
-# Project Title
+# Description
 
-Animations project done for TurnToTech as part of their project ladder
+Quick animation project. Build using UIDynamicAnimator.
 
 ## Using
 
